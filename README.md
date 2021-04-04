@@ -1,16 +1,16 @@
-#READ ME
+# Vidivox
 
-###Easy to run Jar file can be run using this command
-**java -jar VidivoxReleaseBC.jar**
+### Run the application from the jar file:
+`java -jar VidivoxReleaseBC.jar`
 
-Ensure that the jar is being run on Java 1.7 (Java 7 Runtime Environment) as 1.8 does not seem to correctly load the button icons.
+Ensure that the jar is being run on Java 7 as 8 does not seem to correctly load the button icons.
 
 All files generated and output by the program are stored in a folder named **"CustomVidivoxFolder"** which is in the current directory, alternatively use the **Output Folder** to set a custom folder to output files into which will be in the current directory.
 
 Required Libraries are stored in the jar file and additionally provided externally in a folder for use with the source code.
 The "imgs" folder must be in the same folder as the jar file to allow icons to be loaded into the program.
 
-###Additional Information for clarity
+### Usage instructions
 
 1. Press the **Select Video** button before doing anything else to select and autoplay a video
 2. Press the **Synthesize Audio** button to generate MP3 audio files using text to speech
